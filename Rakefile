@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "redis_bitmap_metrics"
   gem.homepage = "http://github.com/tkawachi/redis_bitmap_metrics"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Redis bitmap metrics}
+  gem.description = %Q{Sample implementation of redis bitmap metrics}
   gem.email = "tkawachi@gmail.com"
   gem.authors = ["KAWACHI Takashi"]
   # dependencies defined in Gemfile
