@@ -10,7 +10,7 @@ class RedisBitmapMetrics
   end
 
   def count(key)
-    # NOTE It's very slow for large value.
+    # OPTIMIZATION It's very slow for large value.
     #   One way to overcome this is using C extension module.
     #   ref. https://github.com/tyler/bitset
     #   It seems to have a critical bug though it's resolved by forked source.
